@@ -1,0 +1,11 @@
+# Ignore zip files
+
+*.zip
+
+
+# Ignore any caches
+
+__pycache__/*
+# Ignore env
+
+mygameenv/*
