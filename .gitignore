@@ -9,6 +9,7 @@ pyvenv.cfg
 
 # Ignore any caches
 
+src/__pycache__/*
 __pycache__/*
 # Ignore env
 
