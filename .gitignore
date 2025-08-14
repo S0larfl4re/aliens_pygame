@@ -1,7 +1,11 @@
 # Ignore zip files
 
 *.zip
-
+Include/*
+Lib/*
+Scripts/*
+pyvenv.cfg
+# Ignore Python bytecode files
 
 # Ignore any caches
 
