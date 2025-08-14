@@ -1,8 +1,10 @@
 import sys
-from ship import Ship
-from settings import Settings
-from bullets import Bullet
+
 import pygame
+
+from bullets import Bullet
+from settings import Settings
+from ship import Ship
 
 
 class AlienInvasion:
