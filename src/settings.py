@@ -1,3 +1,6 @@
+import pygame
+
+
 class Settings:
     """A class that stores all setting for alien invasions"""
 
@@ -16,3 +19,6 @@ class Settings:
         self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = (60, 60, 60)
+        self.bg_picture = pygame.image.load(
+            "game_assets/back_ground/white-cloud-blue-sky_scaled.jpg"
+        )
