@@ -11,7 +11,7 @@ class Ship:
         # Load the ship's image and get it's rect.
         alpha = 0
         self.image = pygame.image.load(
-            "game_assets/space_ship/ship.png"
+            "game_assets/space_ship/stealth_bomber.png"
         ).convert_alpha()
         print(self.image)
         self.rect = self.image.get_rect()
