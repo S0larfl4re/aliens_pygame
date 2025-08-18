@@ -1,4 +1,5 @@
 import pygame
+import sys
 
 
 class Settings:
@@ -13,7 +14,11 @@ class Settings:
         self.bg_color = (230, 230, 230)
         # Ship Settings
         self.ship_speed = 5
-
+        self.platform = sys.platform
+        if self.platform == "darwin":
+            self.frame_rate = 60
+        else:
+            self.frame_rate = 75
         # Bullet Settings
         self.bullet_speed = 7.0
         self.bullet_width = 3

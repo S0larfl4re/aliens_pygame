@@ -88,7 +88,7 @@ class AlienInvasion:
             self._update_bullets()
             # Redraw the screen during each pass through the loop.
             pygame.display.flip()
-            self.clock.tick(75)
+            self.clock.tick(self.settings.frame_rate)
 
 
 if __name__ == "__main__":
