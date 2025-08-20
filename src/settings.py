@@ -14,6 +14,7 @@ class Settings:
         self.bg_color = (230, 230, 230)
         # Ship Settings
         self.ship_speed = 5
+        # Platform specific settings
         self.platform = sys.platform
         if self.platform == "darwin":
             self.frame_rate = 60
